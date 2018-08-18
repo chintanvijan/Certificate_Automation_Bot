@@ -1,6 +1,6 @@
 from PIL import Image
-mimage = Image.open("Images.jpg")
-limage = Image.open("sidd.jpg")
+mimage = Image.open("sample.jpg")
+limage = Image.open("logo.jpg")
 
 # resize logo
 wsize = int(min(mimage.size[0], mimage.size[1]) * 0.25)
